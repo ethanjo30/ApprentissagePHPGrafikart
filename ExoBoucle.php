@@ -4,7 +4,7 @@
  * à la fin on affiche le tableau de note sous forme de liste
  */
 
- /**mon essaie exo 
+ /**mon essaie exo **/
 $note = null;
 $notes = [];
 while ($note !== 'fin'){
@@ -14,14 +14,14 @@ while ($note !== 'fin'){
 
 foreach ($notes as $list){
     echo "- $list \n";
-}*/
+}
 
 /**pseudo code grafikart */
 /**TANT QUE l'utilisateur ne tape pas fin 
  *      ajout de la note tapper au note
  * POUR chaque notes dans $notes 
- *      on affiche -$notes
-*/
+ *      on affiche -$notes**/
+
 
 $notes = [];
 $action = null;
@@ -35,3 +35,6 @@ while($action != 'fin'){
 foreach($notes as $note){
     echo "- $note \n";
 }
+
+
+

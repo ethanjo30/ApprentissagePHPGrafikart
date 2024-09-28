@@ -25,3 +25,17 @@ $eleves = [
 foreach ($eleves as $classe => $eleve){
     echo "l'eleve $eleve est dans la classe $classe. \n";
 }
+/** afficher la liste des eleve par classe  */
+$eleves = [
+    'CM1' => ['Paule', 'Arthur', 'Gregorie'],
+    'CM2' => ['Janne', 'Clementine', 'Julie']
+];
+
+foreach ($eleves as $classe => $listeEleve){
+    echo " La classe $classe \n";
+
+    foreach ($listeEleve as $eleve){
+        echo "- $eleve \n";
+    }
+    echo "\n";
+}
