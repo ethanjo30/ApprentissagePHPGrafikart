@@ -5,7 +5,7 @@
  * 
  * deja vu 
  *readline() : ajoute une instruction a l'utilisateur
- *print_r : affiche se que l'utilisateur a entrer 
+ *print_r : affiche se que l'utilisateur a entrer et affiche la liste d'un tableau
  *  (print_r($variable, true) le true renvoi l'info pour la stocké dans une variable")
  * 
  * Nouveau
@@ -18,6 +18,14 @@
  * array_push : ajoute des element au tableau (array_push($note,16,17))
  * array_reverse : inversse les element d'un tableau
  * sort : classe du plus petit a la plus grande 
+ * exit : permet d'afficher un message et de sorti d'un programme
+ * str_replace : remplace une chaine de caractere 
+ *      (str_replace(se qu'il doit cherché, par quoi ont le remplace, la chaine qu'on doit utiliser))
+ * strlent : taille de la chaine de caractere
+ * str_repeat : repete une chaine  
+ *      str_repeat(caratere a repété, nombre de fois)
+ * strpos : recherche un mot dans une phrase
+ *      strpos(ou on doit chercher, se quon doit chercher)
  * 
  * si il y a un & alors la variable sera modifier
 */
